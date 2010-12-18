@@ -13,7 +13,7 @@ Alias: debian.linux.org.tw
 Type: Secondary
 Grml-ftp: /pub/grml/
 Grml-http: /pub/grml/
-Grml-rsync: debian/
+Grml-rsync: pub/grml/
 Grml-Upstream: grml.deb.at
 Maintainer: Andrew Lee <andrew@linux.org.tw>
 Country: TW Taiwan
