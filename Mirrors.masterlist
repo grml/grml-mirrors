@@ -20,3 +20,14 @@ Country: TW Taiwan
 Location: Taipei
 Sponsor: Computer & Information Networking Center, National Taiwan University http://www.cc.ntu.edu.tw/
 IPv6: no
+
+Site: mirror.de.leaseweb.net
+Type: Secondary
+Grml-http: /
+Grml-ftp: /grml/
+Grml-rsync: grml/
+Maintainer: Jeffrey Kriegsman <mirror@leaseweb.com>
+Country: DE Germany
+Location: Frankfurt(?)
+Sponsor: Leaseweb
+IPv6: no(?)
