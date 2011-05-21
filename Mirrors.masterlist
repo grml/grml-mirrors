@@ -23,11 +23,22 @@ IPv6: no
 
 Site: mirror.de.leaseweb.net
 Type: Secondary
-Grml-http: /
+Grml-http: /grml/
 Grml-ftp: /grml/
 Grml-rsync: grml/
 Maintainer: Jeffrey Kriegsman <mirror@leaseweb.com>
 Country: DE Germany
 Location: Frankfurt(?)
 Sponsor: Leaseweb
+IPv6: no(?)
+
+Site: mirror.nl.leaseweb.net
+Type: Secondary
+Grml-http: /grml/
+Grml-ftp: /grml/
+Grml-rsync: grml/
+Maintainer: Jeffrey Kriegsman <mirror@leaseweb.com>
+Country: NL Netherlands
+Location: Haarlem, EvoSwitch DC
+Sponsor: LeaseWeb B.V.
 IPv6: no(?)
