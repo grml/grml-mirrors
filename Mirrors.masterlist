@@ -43,6 +43,17 @@ Location: Haarlem, EvoSwitch DC
 Sponsor: LeaseWeb B.V.
 IPv6: yes
 
+Site: mirror.us.leaseweb.net
+Type: Secondary
+Grml-http: /grml/
+Grml-ftp: /grml/
+Grml-rsync: grml/
+Maintainer: Jeffrey Kriegsman <mirror@leaseweb.com>
+Country: US United States of America
+Location: Manassas, Virginia, PowerLoft DC
+Sponsor: LeaseWeb B.V.
+IPv6: yes
+
 Site: grml.c3sl.ufpr.br
 Type: Secondary
 Grml-http: /
