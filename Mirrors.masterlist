@@ -30,7 +30,7 @@ Maintainer: Jeffrey Kriegsman <mirror@leaseweb.com>
 Country: DE Germany
 Location: Frankfurt(?)
 Sponsor: Leaseweb
-IPv6: no(?)
+IPv6: yes
 
 Site: mirror.nl.leaseweb.net
 Type: Secondary
@@ -41,7 +41,7 @@ Maintainer: Jeffrey Kriegsman <mirror@leaseweb.com>
 Country: NL Netherlands
 Location: Haarlem, EvoSwitch DC
 Sponsor: LeaseWeb B.V.
-IPv6: no(?)
+IPv6: yes
 
 Site: grml.c3sl.ufpr.br
 Type: Secondary
@@ -53,3 +53,95 @@ Country: BR Brazil
 Location: Curitiba, Paran&aacute;
 Sponsor: Center for Scientific Computing and Free Software (C3SL) http://www.c3sl.ufpr.br/
 IPv6: yes
+
+Site: mirror.inode.at
+Type: Secondary
+Grml-http: /data/grml/
+Grml-ftp: /grml/
+Grml-rsync: mirror/grml/
+Maintainer: Michael Renner <mirror@inode.at>
+Country: AT Austria
+Location: Vienna
+Sponsor: Inode http://www.inode.at/
+IPv6: no
+
+Site: mirror.lagis.at
+Type: Secondary
+Grml-http: /pub/grml/
+Grml-ftp: /pub/grml/
+Maintainer: ?
+Country: AT Austria
+Location: Linz
+Sponsor: lagis Internet Service Provider GmbH http://www.lagis.at/
+IPv6: yes
+
+Site: debian.netcologne.de
+Type: SecondaryPlus
+Grml-http: /www.grml.org/
+Grml-ftp: /www.grml.org/
+Maintainer: Alexander Wirt <formorer@grml.org>
+Country: DE Germany
+Location: ?
+Sponsor: NetCologne GmbH http://www.netcologne.de/
+IPv6: yes
+
+Site: ftp.uni-erlangen.de
+Type: Secondary
+Grml-http: /pub/mirrors/grml/
+Grml-ftp: /pub/mirrors/grml/
+Maintainer: ?
+Country: DE Germany
+Location: Erlangen
+Sponsor: Friedrich-Alexander-Universitaet Erlangen-Nuernberg http://uni-erlangen.de/
+IPv6: Yes
+
+Site: ftp.gwdg.de
+Type: Secondary
+Grml-http: /pub/linux/grml/
+Grml-ftp: /pub/linux/grml/
+Grml-rsync: rsync://ftp5.gwdg.de/pub/linux/grml/
+Maintainer: ?
+Country: DE Germany
+Location: ?
+Sponsor: Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen http://gwdg.de/
+IPv6: no
+
+Site: storage.theta.stoerimpuls.net
+Type: Secondary
+Grml-http: /grml/
+Maintainer: ?
+Country: DE Germany
+Location: ?
+Sponsor: Stoerimpuls Networks http://stoerimpuls.net/
+IPv6: no
+
+Site: mirror.rit.edu
+Type: Secondary
+Grml-http: /grml/
+Maintainer: ?
+Country: US United States of America
+Location: New York
+Sponsor: Rochester Insitute of Technology http://rit.edu/
+IPv6: no
+
+Site: ftp.halifax.rwth-aachen.de
+Type: Secondary
+Grml-http: /grml/
+Grml-ftp: /grml/
+Grml-rsync: grml/
+Maintainer: ?
+Country: DE Germany
+Location: Aachen
+Sponsor: Halifax Dormitory Aachen http://www.halifax.rwth-aachen.de/
+IPv6: no
+
+Site: gd.tuwien.ac.at
+Type: Secondary
+Grml-http: /opsys/linux/grml/
+Grml-ftp: /opsys/linux/grml/
+Grml-rsync: opsys/linux/grml/
+Maintainer: ?
+Country: AT Austria
+Location: Vienna
+Sponsor: Technical University of Vienna http://www.tuwien.ac.at/
+IPv6: no
