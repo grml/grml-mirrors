@@ -28,4 +28,9 @@ while (my $line = <$fh>) {
 foreach my $mirror (@mirrors) {
     my ($c, $r) = split (/ +/, $mirror->{'country'});
     printf ("%s http://%s%s\n", $c, $mirror->{'site'}, $mirror->{'grml-http'});
+    if ($mirror->{'grml-ftp'}) {
+        printf ("%s ftp://%s%s\n", $c, $mirror->{'site'}, $mirror->{'grml-ftp'});
+    }
+
+
 }
