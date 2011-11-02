@@ -140,7 +140,7 @@ Type: Secondary
 Grml-http: /grml/
 Grml-ftp: /grml/
 Grml-rsync: grml/
-Maintainer: ?
+Maintainer: Carsten Otto <ftp@halifax.rwth-aachen.de>
 Country: DE Germany
 Location: Aachen
 Sponsor: Halifax Dormitory Aachen http://www.halifax.rwth-aachen.de/
