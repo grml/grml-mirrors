@@ -110,7 +110,7 @@ Site: ftp.gwdg.de
 Type: Secondary
 Grml-http: /pub/linux/grml/
 Grml-ftp: /pub/linux/grml/
-Grml-rsync: rsync://ftp5.gwdg.de/pub/linux/grml/
+Grml-rsync: pub/linux/grml/
 Maintainer: ?
 Country: DE Germany
 Location: ?
