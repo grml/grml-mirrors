@@ -88,8 +88,9 @@ IPv6: yes
 
 Site: debian.netcologne.de
 Type: SecondaryPlus
-Grml-http: /www.grml.org/
-Grml-ftp: /www.grml.org/
+Grml-http: /grml/
+Grml-ftp: /grml/
+Grml-rsync: /grml/
 Maintainer: Alexander Wirt <formorer@grml.org>
 Country: DE Germany
 Location: ?
