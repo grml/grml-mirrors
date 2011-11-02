@@ -31,6 +31,8 @@ foreach my $mirror (@mirrors) {
     if ($mirror->{'grml-ftp'}) {
         printf ("%s ftp://%s%s\n", $c, $mirror->{'site'}, $mirror->{'grml-ftp'});
     }
-
+    if ($mirror->{'grml-rsync'}) {
+        printf ("%s rsync://%s/%s\n", $c, $mirror->{'site'}, $mirror->{'grml-rsync'});
+    }
 
 }
