@@ -80,7 +80,7 @@ Site: mirror.lagis.at
 Type: Secondary
 Grml-http: /pub/grml/
 Grml-ftp: /pub/grml/
-Maintainer: ?
+Maintainer: lagis Mirror Admins <mirror@lagis.at>
 Country: AT Austria
 Location: Linz
 Sponsor: lagis Internet Service Provider GmbH http://www.lagis.at/
