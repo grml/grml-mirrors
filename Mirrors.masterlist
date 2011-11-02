@@ -152,7 +152,7 @@ Type: Secondary
 Grml-http: /opsys/linux/grml/
 Grml-ftp: /opsys/linux/grml/
 Grml-rsync: opsys/linux/grml/
-Maintainer: ?
+Maintainer: Rudolf Ladner <gd@tuwien.ac.at>
 Country: AT Austria
 Location: Vienna
 Sponsor: Technical University of Vienna http://www.tuwien.ac.at/
