@@ -118,15 +118,6 @@ Location: ?
 Sponsor: Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen http://gwdg.de/
 IPv6: no
 
-Site: storage.theta.stoerimpuls.net
-Type: Secondary
-Grml-http: /grml/
-Maintainer: ?
-Country: DE Germany
-Location: ?
-Sponsor: Stoerimpuls Networks http://stoerimpuls.net/
-IPv6: no
-
 Site: mirror.rit.edu
 Type: Secondary
 Grml-http: /grml/
