@@ -86,11 +86,11 @@ Location: Linz
 Sponsor: lagis Internet Service Provider GmbH http://www.lagis.at/
 IPv6: yes
 
-Site: debian.netcologne.de
+Site: mirror.netcologne.de
 Type: SecondaryPlus
 Grml-http: /grml/
 Grml-ftp: /grml/
-Grml-rsync: /grml/
+Grml-rsync: grml/
 Maintainer: Alexander Wirt <formorer@grml.org>
 Country: DE Germany
 Location: ?
