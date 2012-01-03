@@ -25,6 +25,8 @@ while (my $line = <$fh>) {
     }
 }
 
+push @mirrors, $data if $data;
+
 foreach my $mirror (@mirrors) {
     my ($c, $r) = split (/ +/, $mirror->{'country'});
     printf ("%s http://%s%s\n", $c, $mirror->{'site'}, $mirror->{'grml-http'});
