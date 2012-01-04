@@ -4,7 +4,7 @@
 cd /usr/local/src/grml-mirrors
 git reset --hard >/dev/null
 git pull >/dev/null
-perl masterlist2mirmon Mirrors.masterlist > /etc/mirmon/mirror.list
+perl bin/masterlist2mirmon Mirrors.masterlist > /etc/mirmon/mirror.list
 #first run mirmon
 LC_ALL=C /usr/bin/mirmon -q -get update 2>/dev/null
 #then generatore the mirror map 
