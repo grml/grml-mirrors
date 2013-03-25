@@ -11,18 +11,26 @@ $state = $m->state ; # the mirmon state
 
 use Data::Dumper;
 my $mirrors;
+my $regions_hash;
 foreach my $url ( keys %{$state} ) { 
 	next unless $url =~ /^http/;
 	$mirror = $state -> { $url } ; # a Mirmon::Mirror object
 	my ($time, $history) = split('-', $mirror->{state_history});
 	my $last_state = substr($history,-1,1);
-	next if $last_state eq 'f';
 	my $region = $mirror->region;
+	$regions_hash->{$region} = 1;
+	next if $last_state eq 'f';
 	$mirrors->{ $region } ||= [];
 	$url =~ s/^http:\/\///;
 	push @{$mirrors->{ $region }}, $url;
 }
 
-foreach my $region (keys %{$mirrors}) {
-	printf ("%s %s\n", lc($region), join('|', @{$mirrors->{$region}}));
+my @regions = keys(%$regions_hash);
+
+foreach my $region (@regions) {
+	if (scalar(@{$mirrors->{$region}}) == 0) {
+		printf ("%s %s\n", lc($region), join('|', @{$mirrors->{'DE'}}));
+	} else {
+		printf ("%s %s\n", lc($region), join('|', @{$mirrors->{$region}}));
+	}
 }
