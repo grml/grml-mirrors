@@ -142,7 +142,7 @@ Grml-http: /mirrors/grml/
 Grml-ftp: /mirrors/grml/
 Grml-rsync: /mirrors/grml/
 Maintainer: Mirror Admin <mirrors@heanet.ie>
-Country: Ireland
+Country: IE Ireland
 Location: Dublin
 Sponsor: HEAnet - Ireland's National Education & Research Network http://www.heanet.ie/
 IPv6: yes
