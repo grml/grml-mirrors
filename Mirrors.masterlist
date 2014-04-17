@@ -1,13 +1,3 @@
-Site: grml.deb.at
-Type: Origin
-Grml-http: /
-Grml-rsync: grml/
-Maintainer: Gerfried Fuchs <grml@deb.at>
-Country: AT Austria
-Location: Vienna
-Sponsor: Silver Server http://www.sil.at/
-IPv6: yes
-
 Site: mirror.de.leaseweb.net
 Type: Secondary
 Grml-http: /grml/
