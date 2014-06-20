@@ -136,3 +136,14 @@ Country: IE Ireland
 Location: Dublin
 Sponsor: HEAnet - Ireland's National Education & Research Network http://www.heanet.ie/
 IPv6: yes
+
+Site: mirror.23media.de
+Type: Secondary
+Grml-http: /grml/
+Grml-ftp: /grml/
+Grml-rsync: /grml/
+Maintainer: Mirror Admin <mirror@23media.de>
+Country: DE Germany
+Location: Frankfurt
+Sponsor: 23Media GmbH - http://www.23media.de
+IPv6: no
