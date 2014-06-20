@@ -141,7 +141,7 @@ Site: mirror.23media.de
 Type: Secondary
 Grml-http: /grml/
 Grml-ftp: /grml/
-Grml-rsync: /grml/
+Grml-rsync: grml/
 Maintainer: Mirror Admin <mirror@23media.de>
 Country: DE Germany
 Location: Frankfurt
