@@ -147,3 +147,15 @@ Country: DE Germany
 Location: Frankfurt
 Sponsor: 23Media GmbH - http://www.23media.de
 IPv6: no
+
+Site: debian.anexia.at
+Type: Secondary
+Grml-http: /grml/
+Grml-ftp: /grml/
+Grml-rsync: /grml/
+Maintainer: Alexander Griesser <ag@anexia.at>
+Country: AT Austria
+Location: Vienna
+Sponsor: ANEXIA http://www.anexia.at/
+IPv6: no
+
