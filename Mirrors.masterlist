@@ -159,3 +159,14 @@ Location: Vienna
 Sponsor: ANEXIA http://www.anexia.at/
 IPv6: no
 
+Site: mirror.bytemark.co.uk
+Type: Secondary
+Grml-http: /grml/
+Grml-ftp: /grml/
+Grml-rsync: grml/
+Maintainer: James Lawrie <support@support.bytemark.co.uk>
+Country: GB England
+Location: York
+Sponsor: Bytemark Hosting http://www.bytemark.co.uk/
+IPv6: yes
+
