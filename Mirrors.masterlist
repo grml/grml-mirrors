@@ -112,8 +112,8 @@ Grml-rsync: grml/
 Maintainer: Carsten Otto <ftp@halifax.rwth-aachen.de>
 Country: DE Germany
 Location: Aachen
-Sponsor: Halifax Dormitory Aachen http://www.halifax.rwth-aachen.de/
-IPv6: no
+Sponsor: RWTH Aachen University https://www.rwth-aachen.de/
+IPv6: yes
 
 Site: gd.tuwien.ac.at
 Type: Secondary
