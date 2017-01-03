@@ -173,9 +173,9 @@ IPv6: yes
 Site: grml.mirror.wearetriple.com
 Type: Secondary
 Grml-http: /
-Grml-ftp: /
+Grml-https: /
 Grml-rsync: grml/
-Maintainer: Sascha Heemskerk <mirror@wearetriple.com>
+Maintainer: Mirror Admin <mirror@wearetriple.com>
 Country: NL Netherlands
 Location: Amsterdam
 Sponsor: Triple https://www.wearetriple.com/
