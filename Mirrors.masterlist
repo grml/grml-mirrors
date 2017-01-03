@@ -170,3 +170,13 @@ Location: York
 Sponsor: Bytemark Hosting http://www.bytemark.co.uk/
 IPv6: yes
 
+Site: grml.mirror.wearetriple.com
+Type: Secondary
+Grml-http: /
+Grml-ftp: /
+Grml-rsync: grml/
+Maintainer: Sascha Heemskerk <mirror@wearetriple.com>
+Country: NL Netherlands
+Location: Amsterdam
+Sponsor: Triple https://www.wearetriple.com/
+IPv6: yes
