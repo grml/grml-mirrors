@@ -180,3 +180,14 @@ Country: NL Netherlands
 Location: Amsterdam
 Sponsor: Triple https://www.wearetriple.com/
 IPv6: yes
+
+Site: mirror.koddos.net
+Type: Secondary
+Grml-http: /grml/
+Grml-https: /grml/
+Grml-rsync: grml/
+Maintainer: Mirror Admin <mirror@koddos.net>
+Country: NL Netherlands
+Location: Dronten
+Sponsor: KoDDoS https://koddos.net
+IPv6: yes
