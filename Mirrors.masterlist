@@ -191,3 +191,14 @@ Country: NL Netherlands
 Location: Dronten
 Sponsor: KoDDoS https://koddos.net
 IPv6: yes
+
+Site: mirror-hk.koddos.net
+Type: Secondary
+Grml-http: /grml/
+Grml-https: /grml/
+Grml-rsync: grml/
+Maintainer: Mirror Admin <mirror@koddos.net>
+Country: HK Hong Kong
+Location: Hong Kong
+Sponsor: KoDDoS https://zh.koddos.net
+IPv6: yes
