@@ -114,17 +114,6 @@ Location: Aachen
 Sponsor: RWTH Aachen University https://www.rwth-aachen.de/
 IPv6: yes
 
-Site: gd.tuwien.ac.at
-Type: Secondary
-Grml-http: /opsys/linux/grml/
-Grml-ftp: /opsys/linux/grml/
-Grml-rsync: opsys/linux/grml/
-Maintainer: Rudolf Ladner <gd@tuwien.ac.at>
-Country: AT Austria
-Location: Vienna
-Sponsor: Technical University of Vienna http://www.tuwien.ac.at/
-IPv6: no
-
 Site: mirror.23media.de
 Type: Secondary
 Grml-http: /grml/
