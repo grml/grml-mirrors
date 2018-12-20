@@ -34,7 +34,6 @@ IPv6: yes
 Site: grml.c3sl.ufpr.br
 Type: Secondary
 Grml-http: /
-Grml-ftp: /grml/
 Grml-rsync: grml/
 Maintainer: Carlos Carvalho <carlos@fisica.ufpr.br>
 Country: BR Brazil
