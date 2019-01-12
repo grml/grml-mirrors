@@ -179,3 +179,11 @@ Location: Hong Kong
 Sponsor: KoDDoS https://zh.koddos.net
 IPv6: yes
 
+Site: mirror.ungleich.ch
+Type: Secondary
+Grml-https: /mirror/grml/
+Maintainer: ungleich team <support@ungleich.ch>
+Country: Switzerland
+Location: Glarus
+Sponsor: ungleich https://ungleich.ch
+IPv6: yes
