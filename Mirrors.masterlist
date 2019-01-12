@@ -182,8 +182,9 @@ IPv6: yes
 Site: mirror.ungleich.ch
 Type: Secondary
 Grml-https: /mirror/grml/
+Grml-http: /mirror/grml/
 Maintainer: ungleich team <support@ungleich.ch>
-Country: Switzerland
+Country: CH Switzerland
 Location: Glarus
 Sponsor: ungleich https://ungleich.ch
 IPv6: yes
