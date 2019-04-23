@@ -114,14 +114,14 @@ Location: Aachen
 Sponsor: RWTH Aachen University https://www.rwth-aachen.de/
 IPv6: yes
 
-Site: mirror.23media.de
+Site: mirror.23media.com
 Type: Secondary
 Grml-http: /grml/
 Grml-rsync: grml/
-Maintainer: Mirror Admin <mirror@23media.de>
+Maintainer: Mirror Admin <mirror@23media.com>
 Country: DE Germany
 Location: Frankfurt
-Sponsor: 23Media GmbH - http://www.23media.de
+Sponsor: 23media GmbH - https://www.23media.com
 IPv6: no
 
 Site: debian.anexia.at
