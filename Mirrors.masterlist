@@ -127,7 +127,6 @@ IPv6: no
 Site: debian.anexia.at
 Type: Secondary
 Grml-http: /grml/
-Grml-ftp: /grml/
 Grml-rsync: grml/
 Maintainer: Alexander Griesser <ag@anexia.at>
 Country: AT Austria
