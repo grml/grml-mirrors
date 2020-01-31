@@ -188,3 +188,13 @@ Country: CH Switzerland
 Location: Glarus
 Sponsor: ungleich https://ungleich.ch
 IPv6: yes
+
+Site: mirror.lelux.fi
+Type: Secondary
+Grml-http: /grml/
+Grml-https: /grml/
+Maintainer: Lelux Mirrormaster <mirrormaster@lelux.fi>
+Country: FR France
+Location: Paris
+Sponsor: Lelux.fi https://lelux.fi
+IPv6: yes
