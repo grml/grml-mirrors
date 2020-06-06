@@ -83,17 +83,6 @@ Location: Erlangen
 Sponsor: Friedrich-Alexander-Universitaet Erlangen-Nuernberg http://www.fau.de/
 IPv6: Yes
 
-Site: ftp.gwdg.de
-Type: Secondary
-Grml-http: /pub/linux/grml/
-Grml-ftp: /pub/linux/grml/
-Grml-rsync: pub/linux/grml/
-Maintainer: ?
-Country: DE Germany
-Location: Goettingen
-Sponsor: Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen http://gwdg.de/
-IPv6: no
-
 Site: mirror.rit.edu
 Type: Secondary
 Grml-http: /grml/
