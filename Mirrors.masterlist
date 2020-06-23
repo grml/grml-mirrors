@@ -73,6 +73,16 @@ Location: Cologne
 Sponsor: NetCologne GmbH http://www.netcologne.de/
 IPv6: yes
 
+Site: ftp.fau.de
+Type: Secondary
+Grml-http: /grml/
+Grml-ftp: /grml/
+Maintainer: RRZE FTP-Admins <rrze-ftp-admins@fau.de>
+Country: DE Germany
+Location: Erlangen
+Sponsor: Friedrich-Alexander-Universitaet Erlangen-Nuernberg http://www.fau.de/
+IPv6: Yes
+
 Site: mirror.rit.edu
 Type: Secondary
 Grml-http: /grml/
