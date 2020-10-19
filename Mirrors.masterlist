@@ -92,6 +92,17 @@ Location: New York
 Sponsor: Rochester Insitute of Technology http://rit.edu/
 IPv6: no
 
+Site: ftp.halifax.rwth-aachen.de
+Type: Secondary
+Grml-http: /grml/
+Grml-ftp: /grml/
+Grml-rsync: grml/
+Maintainer: Carsten Otto <ftp@halifax.rwth-aachen.de>
+Country: DE Germany
+Location: Aachen
+Sponsor: RWTH Aachen University https://www.rwth-aachen.de/
+IPv6: yes
+
 Site: mirror.23media.com
 Type: Secondary
 Grml-http: /grml/
