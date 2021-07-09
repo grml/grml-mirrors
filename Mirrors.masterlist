@@ -1,7 +1,7 @@
 Site: mirror.de.leaseweb.net
 Type: Secondary
-Grml-http: /grml/
-Grml-ftp: /grml/
+Grml-http: grml/
+Grml-ftp: grml/
 Grml-rsync: grml/
 Maintainer: Jeffrey Kriegsman <mirror@leaseweb.com>
 Country: DE Germany
@@ -11,8 +11,8 @@ IPv6: yes
 
 Site: mirror.nl.leaseweb.net
 Type: Secondary
-Grml-http: /grml/
-Grml-ftp: /grml/
+Grml-http: grml/
+Grml-ftp: grml/
 Grml-rsync: grml/
 Maintainer: Jeffrey Kriegsman <mirror@leaseweb.com>
 Country: NL Netherlands
@@ -22,8 +22,8 @@ IPv6: yes
 
 Site: mirror.us.leaseweb.net
 Type: Secondary
-Grml-http: /grml/
-Grml-ftp: /grml/
+Grml-http: grml/
+Grml-ftp: grml/
 Grml-rsync: grml/
 Maintainer: Jeffrey Kriegsman <mirror@leaseweb.com>
 Country: US United States of America
@@ -43,8 +43,8 @@ IPv6: yes
 
 Site: mirror.lagis.at
 Type: Secondary
-Grml-http: /pub/grml/
-Grml-ftp: /pub/grml/
+Grml-http: pub/grml/
+Grml-ftp: pub/grml/
 Maintainer: lagis Mirror Admins <mirror@lagis.at>
 Country: AT Austria
 Location: Linz
@@ -53,8 +53,8 @@ IPv6: yes
 
 Site: mirror.netcologne.de
 Type: SecondaryPlus
-Grml-http: /grml/
-Grml-ftp: /grml/
+Grml-http: grml/
+Grml-ftp: grml/
 Grml-rsync: grml/
 Maintainer: Alexander Wirt <formorer@grml.org>
 Country: DE Germany
@@ -64,8 +64,8 @@ IPv6: yes
 
 Site: ftp.fau.de
 Type: Secondary
-Grml-http: /grml/
-Grml-ftp: /grml/
+Grml-http: grml/
+Grml-ftp: grml/
 Maintainer: RRZE FTP-Admins <rrze-ftp-admins@fau.de>
 Country: DE Germany
 Location: Erlangen
@@ -74,7 +74,7 @@ IPv6: Yes
 
 Site: mirror.rit.edu
 Type: Secondary
-Grml-http: /grml/
+Grml-http: grml/
 Maintainer: ?
 Country: US United States of America
 Location: New York
@@ -83,8 +83,8 @@ IPv6: no
 
 Site: ftp.halifax.rwth-aachen.de
 Type: Secondary
-Grml-http: /grml/
-Grml-ftp: /grml/
+Grml-http: grml/
+Grml-ftp: grml/
 Grml-rsync: grml/
 Maintainer: Carsten Otto <ftp@halifax.rwth-aachen.de>
 Country: DE Germany
@@ -94,7 +94,7 @@ IPv6: yes
 
 Site: mirror.23media.com
 Type: Secondary
-Grml-http: /grml/
+Grml-http: grml/
 Grml-rsync: grml/
 Maintainer: Mirror Admin <mirror@23media.com>
 Country: DE Germany
@@ -104,7 +104,7 @@ IPv6: no
 
 Site: at.mirror.anexia.com
 Type: Secondary
-Grml-http: /grml/
+Grml-http: grml/
 Grml-rsync: grml/
 Maintainer: Alexander Griesser <ag@anexia.at>
 Country: AT Austria
@@ -114,8 +114,8 @@ IPv6: no
 
 Site: mirror.bytemark.co.uk
 Type: Secondary
-Grml-http: /grml/
-Grml-ftp: /grml/
+Grml-http: grml/
+Grml-ftp: grml/
 Grml-rsync: grml/
 Maintainer: James Lawrie <support@support.bytemark.co.uk>
 Country: GB England
@@ -136,8 +136,8 @@ IPv6: yes
 
 Site: mirror.koddos.net
 Type: Secondary
-Grml-http: /grml/
-Grml-https: /grml/
+Grml-http: grml/
+Grml-https: grml/
 Grml-rsync: grml/
 Maintainer: Mirror Admin <mirror@koddos.net>
 Country: NL Netherlands
@@ -147,8 +147,8 @@ IPv6: yes
 
 Site: mirror-hk.koddos.net
 Type: Secondary
-Grml-http: /grml/
-Grml-https: /grml/
+Grml-http: grml/
+Grml-https: grml/
 Grml-rsync: grml/
 Maintainer: Mirror Admin <mirror@koddos.net>
 Country: HK Hong Kong
@@ -158,8 +158,8 @@ IPv6: yes
 
 Site: mirror.ungleich.ch
 Type: Secondary
-Grml-https: /mirror/grml/
-Grml-http: /mirror/grml/
+Grml-https: mirror/grml/
+Grml-http: mirror/grml/
 Maintainer: ungleich team <support@ungleich.ch>
 Country: CH Switzerland
 Location: Glarus
@@ -168,8 +168,8 @@ IPv6: yes
 
 Site: mirror.lelux.fi
 Type: Secondary
-Grml-http: /grml/
-Grml-https: /grml/
+Grml-http: grml/
+Grml-https: grml/
 Maintainer: Lelux Mirrormaster <mirrormaster@lelux.fi>
 Country: FI Finland
 Location: Paris
@@ -178,8 +178,8 @@ IPv6: yes
 
 Site: mirror.serverion.com
 Type: Secondary
-Grml-http: /grml/
-Grml-https: /grml/
+Grml-http: grml/
+Grml-https: grml/
 Maintainer: Serverion Mirror <info@serverion.com>
 Country: NL Netherlands
 Location: The Hague
