@@ -113,7 +113,7 @@ Location: Frankfurt
 Sponsor: 23media GmbH - https://www.23media.com
 IPv6: no
 
-Site: debian.anexia.at
+Site: at.mirror.anexia.com
 Type: Secondary
 Grml-http: /grml/
 Grml-rsync: grml/
