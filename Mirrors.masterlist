@@ -41,17 +41,6 @@ Location: Curitiba, Paran&aacute;
 Sponsor: Center for Scientific Computing and Free Software (C3SL) http://www.c3sl.ufpr.br/
 IPv6: yes
 
-Site: mirror.inode.at
-Type: Secondary
-Grml-http: /grml/
-Grml-ftp: /grml/
-Grml-rsync: grml/
-Maintainer: mirror.inode.at team <mirror@inode.at>
-Country: AT Austria
-Location: Vienna
-Sponsor: UPC http://www.upc.at/
-IPv6: yes
-
 Site: mirror.lagis.at
 Type: Secondary
 Grml-http: /pub/grml/
