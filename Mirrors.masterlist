@@ -185,3 +185,27 @@ Country: NL Netherlands
 Location: The Hague
 Sponsor: Serverion https://www.serverion.com
 IPv6: yes
+
+Site: grml.ip-connect.vn.ua
+Type: Secondary
+Grml-http: /
+Grml-https: /
+Grml-ftp: mirror/grml/
+Grml-rsync: grml/
+Maintainer: IP-Connect mirror admin <mirrors@ip-connect.vn.ua>
+Country: UA Ukraine
+Location: Vinnytsia
+Sponsor: IP-Connect.vn.ua
+IPv6: yes
+
+Site: grml.ip-connect.info
+Type: Secondary
+Grml-http: /
+Grml-https: /
+Grml-ftp: mirror/grml/
+Grml-rsync: grml/
+Maintainer: IP-Connect mirror admin <mirrors@ip-connect.info>
+Country: UA Ukraine
+Location: Vinnytsia DTEL-IX
+Sponsor: IP-Connect.info
+IPv6: yes
