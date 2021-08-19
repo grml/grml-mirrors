@@ -209,3 +209,13 @@ Country: UA Ukraine
 Location: Vinnytsia DTEL-IX
 Sponsor: IP-Connect.info
 IPv6: yes
+
+Site: tw1.mirror.blendbyte.net
+Type: Secondary
+Grml-http: grml/
+Grml-https: grml/
+Maintainer: Blendbyte Inc. <mirrors@blendbyte.com>
+Country: TW Taiwan
+Location: Taipei
+Sponsor: Blendbyte Inc. https://blendbyte.com
+IPv6: no
