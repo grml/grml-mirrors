@@ -41,16 +41,6 @@ Location: Curitiba, Paran&aacute;
 Sponsor: Center for Scientific Computing and Free Software (C3SL) http://www.c3sl.ufpr.br/
 IPv6: yes
 
-Site: mirror.lagis.at
-Type: Secondary
-Grml-http: pub/grml/
-Grml-ftp: pub/grml/
-Maintainer: lagis Mirror Admins <mirror@lagis.at>
-Country: AT Austria
-Location: Linz
-Sponsor: lagis Internet Service Provider GmbH http://www.lagis.at/
-IPv6: yes
-
 Site: mirror.netcologne.de
 Type: SecondaryPlus
 Grml-http: grml/
