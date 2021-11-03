@@ -62,14 +62,14 @@ Location: Erlangen
 Sponsor: Friedrich-Alexander-Universitaet Erlangen-Nuernberg http://www.fau.de/
 IPv6: Yes
 
-Site: mirror.rit.edu
+Site: mirrors.rit.edu
 Type: Secondary
 Grml-http: grml/
 Maintainer: ?
 Country: US United States of America
 Location: New York
 Sponsor: Rochester Insitute of Technology http://rit.edu/
-IPv6: no
+IPv6: Yes
 
 Site: ftp.halifax.rwth-aachen.de
 Type: Secondary
