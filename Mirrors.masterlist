@@ -233,6 +233,7 @@ IPv6: no
 Site: mirror.alwyzon.net
 Type: Secondary
 Grml-http: grml/
+Grml-https: grml/
 Grml-rsync: grml/
 Maintainer: Mirror Admin <mirror@alwyzon.net>
 Country: AT Austria
