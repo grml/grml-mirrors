@@ -229,3 +229,14 @@ Country: TW Taiwan
 Location: Taipei
 Sponsor: Blendbyte Inc. https://blendbyte.com
 IPv6: no
+
+Site: mirror.alwyzon.net
+Type: Secondary
+Grml-http: grml/
+Grml-https: grml/
+Grml-rsync: grml/
+Maintainer: Mirror Admin <mirror@alwyzon.net>
+Country: AT Austria
+Location: Vienna
+Sponsor: Alwyzon https://www.alwyzon.com/
+IPv6: yes
