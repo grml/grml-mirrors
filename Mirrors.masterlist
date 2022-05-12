@@ -31,16 +31,6 @@ Location: Manassas, Virginia, PowerLoft DC
 Sponsor: LeaseWeb B.V.
 IPv6: yes
 
-Site: grml.c3sl.ufpr.br
-Type: Secondary
-Grml-http: /
-Grml-rsync: grml/
-Maintainer: Carlos Carvalho <carlos@fisica.ufpr.br>
-Country: BR Brazil
-Location: Curitiba, Paran&aacute;
-Sponsor: Center for Scientific Computing and Free Software (C3SL) http://www.c3sl.ufpr.br/
-IPv6: yes
-
 Site: mirror.lagis.at
 Type: Secondary
 Grml-http: pub/grml/
