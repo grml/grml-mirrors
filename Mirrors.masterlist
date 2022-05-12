@@ -176,16 +176,6 @@ Location: Paris
 Sponsor: Lelux.fi https://lelux.fi
 IPv6: yes
 
-Site: mirror.serverion.com
-Type: Secondary
-Grml-http: grml/
-Grml-https: grml/
-Maintainer: Serverion Mirror <info@serverion.com>
-Country: NL Netherlands
-Location: The Hague
-Sponsor: Serverion https://www.serverion.com
-IPv6: yes
-
 Site: grml.ip-connect.vn.ua
 Type: Secondary
 Grml-http: /
