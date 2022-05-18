@@ -29,8 +29,8 @@ my @regions = keys(%$regions_hash);
 
 foreach my $region (@regions) {
 	if (scalar(@{$mirrors->{$region}}) == 0) {
-		printf ("%s %s\n", lc($region), join('|', @{$mirrors->{'DE'}}));
+		printf ("%s %s\n", uc($region), join('|', @{$mirrors->{'DE'}}));
 	} else {
-		printf ("%s %s\n", lc($region), join('|', @{$mirrors->{$region}}));
+		printf ("%s %s\n", uc($region), join('|', @{$mirrors->{$region}}));
 	}
 }
