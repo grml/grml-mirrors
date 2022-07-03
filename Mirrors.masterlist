@@ -186,3 +186,14 @@ Country: FI Finland
 Location: Paris
 Sponsor: Lelux.fi https://lelux.fi
 IPv6: yes
+
+Site: mirror.serverion.com
+Type: Secondary
+Grml-http: grml/
+Grml-ftp: grml/
+Grml-rsync: grml/
+Maintainer: Serverion.com <mirror@serverion.com>
+Country: NL Netherlands
+Location: Zoetermeer, NL
+Sponsor: Serverion B.V.
+IPv6: yes
