@@ -117,7 +117,6 @@ Site: grml.mirror.wearetriple.com
 Type: Secondary
 Grml-http: /
 Grml-https: /
-Grml-rsync: grml/
 Maintainer: Mirror Admin <mirror@wearetriple.com>
 Country: NL Netherlands
 Location: Amsterdam
