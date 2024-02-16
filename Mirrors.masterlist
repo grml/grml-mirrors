@@ -202,7 +202,7 @@ IPv6: yes
 
 Site: mirrors.magcast.co
 Type: Secondary
-Grml-https: grml/
+Grml-https: Linux/grml/
 Maintainer: Mirror Admin <mirrors@magcast.co>
 Country: DE Germany
 Location: Falkenstein
