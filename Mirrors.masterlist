@@ -208,3 +208,13 @@ Country: DE Germany
 Location: Falkenstein
 Sponsor: MagCast https://magcast.co/
 IPv6: no
+
+Site: mirror.akardam.net
+Type: Secondary
+Grml-http: grml/
+Grml-ftp: grml/
+Maintainer: Mirror Admin <mirror-poc@akardam.net>
+Country: US United States of America
+Location: San Francisco, California
+Sponsor: akardam.net
+IPv6: yes
