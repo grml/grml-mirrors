@@ -218,3 +218,12 @@ Country: US United States of America
 Location: San Francisco, California
 Sponsor: akardam.net
 IPv6: yes
+
+Site: mirror.hugo-betrugo.de
+Type: Secondary
+Grml-http: grml/
+Grml-https: grml/
+Maintainer: Mirror Admin <mirror@hugo-betrugo.de>
+Country: DE Germany
+Location: Hamburg
+IPv6: no
