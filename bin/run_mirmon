@@ -1,13 +1,19 @@
 #!/bin/sh
 
-#update mirrorlist from git
-cd /usr/local/src/grml-mirrors
+MIRRORHOME=/var/www/download.grml.org/grml-mirrors
+
+# update mirrorlist from git
+cd $MIRRORHOME
 git reset --hard >/dev/null
 git pull >/dev/null
-perl bin/masterlist2mirmon Mirrors.masterlist > /etc/mirmon/mirror.list
-#first run mirmon
+
+bin/masterlist2mirmon Mirrors.masterlist > state/mirror.list
+
+# first run mirmon
 LC_ALL=C /usr/bin/mirmon -q -get update 2>/dev/null
-#then generatore the mirror map 
-/usr/local/bin/generate_mirror_map > /etc/apache2/grml.map
-#give a hint to apache2 
+
+# then generatore the mirror map
+bin/generate_mirror_map > state/grml.map
+
+# give a hint to apache2
 /usr/sbin/apache2ctl graceful
