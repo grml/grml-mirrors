@@ -1,2 +1,3 @@
 0,15,30,45 *     * * *     root   chronic /var/www/download.grml.org/grml-mirrors/bin/run_mirmon
+17 *             * * *     root   date +%s > /var/www/ftp-master.grml.org/timestamp.txt
 
