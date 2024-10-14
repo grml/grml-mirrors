@@ -34,7 +34,6 @@ IPv6: yes
 Site: mirror.lagis.at
 Type: Secondary
 Grml-http: pub/grml/
-Grml-ftp: pub/grml/
 Maintainer: lagis Mirror Admins <mirror@lagis.at>
 Country: AT Austria
 Location: Linz
