@@ -200,16 +200,6 @@ Location: Zoetermeer, NL
 Sponsor: Serverion B.V.
 IPv6: yes
 
-Site: mirrors.magcast.co
-Type: Secondary
-Grml-http: Linux/grml/
-Grml-https: Linux/grml/
-Maintainer: Mirror Admin <mirrors@magcast.co>
-Country: DE Germany
-Location: Falkenstein
-Sponsor: MagCast https://magcast.co/
-IPv6: no
-
 Site: mirror.akardam.net
 Type: Secondary
 Grml-http: grml/
