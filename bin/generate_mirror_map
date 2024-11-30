@@ -21,7 +21,6 @@ foreach my $url ( keys %{$state} ) {
 	my $region = $mirror->region;
 	$regions_hash->{$region} = 1;
 	$mirrors->{ $region } ||= [];
-	$url =~ s/^http:\/\///;
 	push @{$mirrors->{ $region }}, $url;
 }
 
