@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -euxo pipefail
 
 MIRRORHOME=/var/www/download.grml.org/grml-mirrors
