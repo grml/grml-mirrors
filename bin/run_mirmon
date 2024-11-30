@@ -1,16 +1,17 @@
 #!/bin/sh
+set -euxo pipefail
 
 MIRRORHOME=/var/www/download.grml.org/grml-mirrors
 
 # update mirrorlist from git
 cd $MIRRORHOME
-git reset --hard >/dev/null
-git pull >/dev/null
+git reset --hard
+git pull
 
 bin/masterlist2mirmon Mirrors.masterlist > ../state/mirror.list
 
 # first run mirmon
-LC_ALL=C /usr/bin/mirmon -q -get update 2>/dev/null
+LC_ALL=C /usr/bin/mirmon -get update
 
 # then generatore the mirror map
 bin/generate_mirror_map > ../state/grml.map
