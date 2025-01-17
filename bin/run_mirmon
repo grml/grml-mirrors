@@ -14,7 +14,9 @@ bin/masterlist2mirmon Mirrors.masterlist > ../state/mirror.list
 LC_ALL=C /usr/bin/mirmon -get update
 
 # then generatore the mirror map
-bin/generate_mirror_map > ../state/grml.map
+bin/generate_mirror_map Mirrors.masterlist > ../state/grml.map
+# separate list of all ipv6-enabled mirrors
+bin/generate_mirror_map Mirrors.masterlist -6 > ../state/grml6.map
 
 # give a hint to apache2
 /usr/sbin/apache2ctl graceful

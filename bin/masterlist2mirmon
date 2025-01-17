@@ -3,38 +3,59 @@
 use strict;
 use warnings;
 
-my $file = shift;
+sub parse_masterlist {
+	my ($file) = @_;
+	die "no file $file" unless -f $file;
 
-die "no file $file" unless -f $file;
+	open (my $fh, '<', $file) or die "Could not open $file: $!";
 
-open (my $fh, '<', $file) or die "Could not open $file: $!";
+	my @mirrors;
+	my $data;
+	while (my $line = <$fh>) {
+		chomp $line;
+		if ($line =~ /([^:]+): (.*)/) {
+			my $key = lc($1);
+			my $value = $2;
+			$data->{$key} = $value;
+		} elsif ($line eq '') {
+			push @mirrors, $data;
+			$data = undef;
+		} else {
+			print "Malformed line: $line\n";
+		}
+	}
 
-my @mirrors;
-my $data;
-while (my $line = <$fh>) {
-    chomp $line;
-    if ($line =~ /([^:]+): (.*)/) {
-        my $key = lc($1);
-        my $value = $2;
-        $data->{$key} = $value;
-    } elsif ($line eq '') {
-        push @mirrors, $data;
-        $data = undef;
-    } else {
-        print "Malformed line: $line\n";
-    }
+	$mirror->{'url-http'} = sprintf "https://%s/%s", $mirror->{'site'}, $mirror->{'grml-http'});
+	if ($mirror->{'grml-ftp'}) {
+		printf ("%s ftp://%s/%s\n", $c, $mirror->{'site'}, $mirror->{'grml-ftp'});
+	}
+	if ($mirror->{'grml-rsync'}) {
+		printf ("%s rsync://%s/%s\n", $c, $mirror->{'site'}, $mirror->{'grml-rsync'});
+	}
+
+	push @mirrors, $data if $data;
+	return @mirrors;
 }
 
-push @mirrors, $data if $data;
+my $masterlist = shift;
+my @mirrors = parse_masterlist($masterlist);
+foreach my $mirror (@mirrors) {
+	$mirror->{'url-http'} = sprintf("https://%s/%s", $mirror->{'site'}, $mirror->{'grml-http'});
+	if ($mirror->{'grml-ftp'}) {
+		$mirror->{'url-ftp'} = sprintf("ftp://%s/%s", $mirror->{'site'}, $mirror->{'grml-ftp'});
+	}
+	if ($mirror->{'grml-rsync'}) {
+		$mirror->{'url-rsync'} = sprintf("rsync://%s/%s\n", $mirror->{'site'}, $mirror->{'grml-rsync'});
+	}
+}
 
 foreach my $mirror (@mirrors) {
-    my ($c, $r) = split (/ +/, $mirror->{'country'});
-    printf ("%s https://%s/%s\n", $c, $mirror->{'site'}, $mirror->{'grml-http'});
-    if ($mirror->{'grml-ftp'}) {
-        printf ("%s ftp://%s/%s\n", $c, $mirror->{'site'}, $mirror->{'grml-ftp'});
-    }
-    if ($mirror->{'grml-rsync'}) {
-        printf ("%s rsync://%s/%s\n", $c, $mirror->{'site'}, $mirror->{'grml-rsync'});
-    }
-
+	my ($c, $r) = split (/ +/, $mirror->{'country'});
+	print $c." ".$mirror->{'url-http'}."\n";
+	if ($mirror->{'url-ftp'}) {
+		print $c." ".$mirror->{'url-ftp'}."\n";
+	}
+	if ($mirror->{'url-rsync'}) {
+		print $c." ".$mirror->{'url-rsync'}."\n";
+	}
 }
