@@ -25,14 +25,6 @@ sub parse_masterlist {
 		}
 	}
 
-	$mirror->{'url-http'} = sprintf "https://%s/%s", $mirror->{'site'}, $mirror->{'grml-http'});
-	if ($mirror->{'grml-ftp'}) {
-		printf ("%s ftp://%s/%s\n", $c, $mirror->{'site'}, $mirror->{'grml-ftp'});
-	}
-	if ($mirror->{'grml-rsync'}) {
-		printf ("%s rsync://%s/%s\n", $c, $mirror->{'site'}, $mirror->{'grml-rsync'});
-	}
-
 	push @mirrors, $data if $data;
 	return @mirrors;
 }
