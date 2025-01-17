@@ -89,7 +89,7 @@ Maintainer: Mirror Admin <mirror@23m.com>
 Country: DE Germany
 Location: Frankfurt
 Sponsor: 23media GmbH - https://www.23m.com/
-IPv6: no
+IPv6: yes
 
 Site: at.mirror.anexia.com
 Type: Secondary
@@ -99,7 +99,7 @@ Maintainer: Alexander Griesser <ag@anexia.at>
 Country: AT Austria
 Location: Vienna
 Sponsor: ANEXIA http://www.anexia.at/
-IPv6: no
+IPv6: yes
 
 Site: grml.mirror.wearetriple.com
 Type: Secondary
