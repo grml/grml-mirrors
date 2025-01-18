@@ -10,13 +10,18 @@ git pull
 
 bin/masterlist2mirmon Mirrors.masterlist > ../state/mirror.list
 
-# first run mirmon
+# run mirmon to get current mirror freshness
 LC_ALL=C /usr/bin/mirmon -get update
 
-# then generatore the mirror map
-bin/generate_mirror_map Mirrors.masterlist > ../state/grml.map
+# then generatore the mirror map in a temporary file
+bin/generate_mirror_map Mirrors.masterlist > ../state/grml.map.tmp
 # separate list of all ipv6-enabled mirrors
-bin/generate_mirror_map Mirrors.masterlist -6 > ../state/grml6.map
+bin/generate_mirror_map Mirrors.masterlist -6 > ../state/grml6.map.tmp
 
-# give a hint to apache2
-/usr/sbin/apache2ctl graceful
+# now do an atomic move, so apache does not see half-empty files
+mv ../state/grml.map.tmp ../state/grml.map
+mv ../state/grml6.map.tmp ../state/grml6.map
+
+# apache will reread the files when their mtimes change, so we do not need to
+# inform apache.
+
