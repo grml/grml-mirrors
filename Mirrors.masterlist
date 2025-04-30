@@ -162,7 +162,7 @@ Type: Secondary
 Grml-http: grml/
 Grml-https: grml/
 Maintainer: Alibaba cloud mirror <ali-yum@alibaba-inc.com>
-Country: CN China
+Country: XX Global CDN
 Location: Hangzhou
 Sponsor: Alibaba cloud
 IPv6: yes
