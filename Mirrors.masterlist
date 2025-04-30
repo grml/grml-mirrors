@@ -217,3 +217,14 @@ Maintainer: Mirror Admin <mirror@hugo-betrugo.de>
 Country: DE Germany
 Location: Falkenstein
 IPv6: no
+
+Site: mirror.init7.net
+Type: Secondary
+Grml-http: grml/
+Grml-ftp: grml/
+Grml-rsync: grml/
+Maintainer: Init7 <mirror@init7.net>
+Country: CH Switzerland
+Location: Winterthur
+Sponsor: Init7 (Schweiz) AG
+IPv6: yes
