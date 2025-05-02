@@ -54,7 +54,7 @@ IPv6: yes
 Site: ftp.fau.de
 Type: Secondary
 Grml-http: grml/
-Grml-ftp: grml/
+Grml-rsync: grml/
 Maintainer: RRZE FTP-Admins <rrze-ftp-admins@fau.de>
 Country: DE Germany
 Location: Erlangen
