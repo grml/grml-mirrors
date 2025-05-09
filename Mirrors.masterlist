@@ -165,7 +165,7 @@ Maintainer: Alibaba cloud mirror <ali-yum@alibaba-inc.com>
 Country: XX Global CDN
 Location: Hangzhou
 Sponsor: Alibaba cloud
-IPv6: yes
+IPv6: no
 
 Site: tw1.mirror.blendbyte.net
 Type: Secondary
