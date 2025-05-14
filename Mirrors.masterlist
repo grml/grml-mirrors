@@ -43,7 +43,6 @@ IPv6: yes
 Site: mirror.netcologne.de
 Type: SecondaryPlus
 Grml-http: grml/
-Grml-ftp: grml/
 Grml-rsync: grml/
 Maintainer: Alexander Wirt <formorer@grml.org>
 Country: DE Germany
