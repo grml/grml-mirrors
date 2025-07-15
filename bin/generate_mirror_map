@@ -56,29 +56,68 @@ foreach my $mirror (@mirrors) {
 
 
 use Mirmon;
-$m = Mirmon -> new ( '/etc/mirmon.conf' ); 
+$m = Mirmon -> new ( '/etc/mirmon.conf' );
 
 $conf  = $m->conf  ; # a Mirmon::Conf object
 $state = $m->state ; # the mirmon state
 
 use Data::Dumper;
-my $mirrors;
+my $mirror_regions;
 my $regions_hash;
+my $secondary_plus_mirrors = [];
+my $all_up_mirrors = [];
 
-foreach my $url ( keys %{$state} ) { 
+# Find all "up" mirrors from Mirmon data
+foreach my $url ( keys %{$state} ) {
 	next unless $url ~~ @http_urls;
 	$mirror = $state -> { $url } ; # a Mirmon::Mirror object
 	my ($time, $history) = split('-', $mirror->{state_history});
 	my $last_state = substr($history,-1,1);
-	next if $last_state eq 'f';
+	next if $last_state eq 'f';  # skip down mirrors
+
+	# Find mirror data from masterlist
+	my $mirror_data;
+	foreach my $m (@mirrors) {
+		if ($m->{'url-http'} eq $url) {
+			$mirror_data = $m;
+			last;
+		}
+	}
+
+	# Collect (up) SecondaryPlus mirrors
+	if ($mirror_data && $mirror_data->{'type'} eq 'SecondaryPlus') {
+		push @{$secondary_plus_mirrors}, $url;
+	}
+
+	# Collect into all up mirrors for final fallback
+	push @{$all_up_mirrors}, $url;
+
 	my $region = $mirror->region;
 	$regions_hash->{$region} = 1;
-	$mirrors->{ $region } ||= [];
-	push @{$mirrors->{ $region }}, $url;
+	$mirror_regions->{ $region } ||= [];
+	push @{$mirror_regions->{ $region }}, $url;
 }
 
 my @regions = keys(%$regions_hash);
 
+# Check if XX region exists and has mirrors
+if (!exists $mirror_regions->{'XX'} || !@{$mirror_regions->{'XX'}}) {
+	# fallback: Add SecondaryPlus mirrors
+	if (@{$secondary_plus_mirrors}) {
+		$mirror_regions->{'XX'} = [@{$secondary_plus_mirrors}];
+		$regions_hash->{'XX'} = 1;
+		push @regions, 'XX' unless 'XX' ~~ @regions;
+	}
+
+	# fallback of fallback: if no SecondaryPlus mirrors are up, add any other available mirror
+	elsif (@{$all_up_mirrors}) {
+		$mirror_regions->{'XX'} = [$all_up_mirrors->[0]];  # Just take the first available
+		$regions_hash->{'XX'} = 1;
+		push @regions, 'XX' unless 'XX' ~~ @regions;
+	}
+}
+
+# Finally print mirrors
 foreach my $region (@regions) {
-	printf ("%s %s\n", uc($region), join('|', @{$mirrors->{$region}}));
+	printf ("%s %s\n", uc($region), join('|', @{$mirror_regions->{$region}}));
 }
