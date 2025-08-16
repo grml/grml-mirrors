@@ -188,17 +188,6 @@ Location: Vienna
 Sponsor: Alwyzon https://www.alwyzon.com/
 IPv6: yes
 
-Site: mirror.serverion.com
-Type: Secondary
-Grml-http: grml/
-Grml-ftp: grml/
-Grml-rsync: grml/
-Maintainer: Serverion.com <mirror@serverion.com>
-Country: NL Netherlands
-Location: Zoetermeer, NL
-Sponsor: Serverion B.V.
-IPv6: yes
-
 Site: mirror.akardam.net
 Type: Secondary
 Grml-http: grml/
