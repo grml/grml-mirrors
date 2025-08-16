@@ -111,17 +111,6 @@ Location: Amsterdam
 Sponsor: Triple https://www.wearetriple.com/
 IPv6: yes
 
-Site: mirror.koddos.net
-Type: Secondary
-Grml-http: grml/
-Grml-https: grml/
-Grml-rsync: grml/
-Maintainer: Mirror Admin <mirror@koddos.net>
-Country: NL Netherlands
-Location: Dronten
-Sponsor: KoDDoS https://koddos.net
-IPv6: yes
-
 Site: mirror-hk.koddos.net
 Type: Secondary
 Grml-http: grml/
@@ -143,18 +132,6 @@ Maintainer: IP-Connect mirror admin <mirrors@ip-connect.vn.ua>
 Country: UA Ukraine
 Location: Vinnytsia
 Sponsor: IP-Connect.vn.ua
-IPv6: yes
-
-Site: grml.ip-connect.info
-Type: Secondary
-Grml-http: /
-Grml-https: /
-Grml-ftp: mirror/grml/
-Grml-rsync: grml/
-Maintainer: IP-Connect mirror admin <mirrors@ip-connect.info>
-Country: UA Ukraine
-Location: Vinnytsia DTEL-IX
-Sponsor: IP-Connect.info
 IPv6: yes
 
 Site: mirrors.aliyun.com
@@ -186,17 +163,6 @@ Maintainer: Mirror Admin <mirror@alwyzon.net>
 Country: AT Austria
 Location: Vienna
 Sponsor: Alwyzon https://www.alwyzon.com/
-IPv6: yes
-
-Site: mirror.serverion.com
-Type: Secondary
-Grml-http: grml/
-Grml-ftp: grml/
-Grml-rsync: grml/
-Maintainer: Serverion.com <mirror@serverion.com>
-Country: NL Netherlands
-Location: Zoetermeer, NL
-Sponsor: Serverion B.V.
 IPv6: yes
 
 Site: mirror.akardam.net
