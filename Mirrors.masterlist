@@ -134,18 +134,6 @@ Location: Vinnytsia
 Sponsor: IP-Connect.vn.ua
 IPv6: yes
 
-Site: grml.ip-connect.info
-Type: Secondary
-Grml-http: /
-Grml-https: /
-Grml-ftp: mirror/grml/
-Grml-rsync: grml/
-Maintainer: IP-Connect mirror admin <mirrors@ip-connect.info>
-Country: UA Ukraine
-Location: Vinnytsia DTEL-IX
-Sponsor: IP-Connect.info
-IPv6: yes
-
 Site: mirrors.aliyun.com
 Type: Secondary
 Grml-http: grml/
