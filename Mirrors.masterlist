@@ -193,3 +193,13 @@ Country: CH Switzerland
 Location: Winterthur
 Sponsor: Init7 (Schweiz) AG
 IPv6: yes
+
+Site: grml.c3sl.ufpr.br
+Type: Secondary
+Grml-http: /
+Grml-rsync: grml/
+Maintainer: Mirror Admin <root@c3sl.ufpr.br>
+Country: BR Brazil
+Location: Curitiba, Parana
+Sponsor: Centro de Computacao Cientifica e Software Livre (C3SL), UFPR
+IPv6: yes
