@@ -203,3 +203,14 @@ Country: BR Brazil
 Location: Curitiba, Parana
 Sponsor: Centro de Computacao Cientifica e Software Livre (C3SL), UFPR
 IPv6: yes
+
+Site: mirrors.ipserverone.com
+Type: Secondary
+Grml-http: grml/
+Grml-https: grml/
+Grml-rsync: grml/
+Maintainer: IPS1 Support <support@ipserverone.com>
+Country: MY Malaysia
+Location: Cyberjaya
+Sponsor: IP ServerOne Solutions Sdn bhd https://www.ipserverone.com/
+IPv6: yes
