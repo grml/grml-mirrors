@@ -144,6 +144,17 @@ Location: Hangzhou
 Sponsor: Alibaba cloud
 IPv6: no
 
+Site: mirror.twds.com.tw
+Type: Secondary
+Grml-http: grml/
+Grml-https: grml/
+Grml-rsync: grml/
+Maintainer: TWDS Mirror Admin <mirror@twds.tw>
+Country: TW Taiwan
+Location: Taipei
+Sponsor: Taiwan Digital Streaming Co. https://www.twds.com.tw
+IPv6: yes
+
 Site: tw1.mirror.blendbyte.net
 Type: Secondary
 Grml-http: grml/
