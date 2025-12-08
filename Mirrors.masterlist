@@ -134,16 +134,6 @@ Location: Vinnytsia
 Sponsor: IP-Connect.vn.ua
 IPv6: yes
 
-Site: mirrors.aliyun.com
-Type: Secondary
-Grml-http: grml/
-Grml-https: grml/
-Maintainer: Alibaba cloud mirror <ali-yum@alibaba-inc.com>
-Country: XX Global CDN
-Location: Hangzhou
-Sponsor: Alibaba cloud
-IPv6: no
-
 Site: mirror.twds.com.tw
 Type: Secondary
 Grml-http: grml/
