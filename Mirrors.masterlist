@@ -215,3 +215,14 @@ Country: MY Malaysia
 Location: Cyberjaya
 Sponsor: IP ServerOne Solutions Sdn bhd https://www.ipserverone.com/
 IPv6: yes
+
+Site: mirrors.datapark.ro
+Type: Secondary
+Grml-http: grml/
+Grml-https: grml/
+Grml-rsync: grml/
+Maintainer: DataPark Mirrors <mirrors@datapark.ro>
+Country: RO Romania
+Location: Iași
+Sponsor: DataPark https://www.datapark.ro/
+IPv6: no
