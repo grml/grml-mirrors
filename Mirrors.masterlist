@@ -209,7 +209,6 @@ Site: mirrors.ipserverone.com
 Type: Secondary
 Grml-http: grml/
 Grml-https: grml/
-Grml-rsync: grml/
 Maintainer: IPS1 Support <support@ipserverone.com>
 Country: MY Malaysia
 Location: Cyberjaya
