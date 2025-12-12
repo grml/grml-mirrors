@@ -1,7 +1,6 @@
 Site: mirror.de.leaseweb.net
 Type: Secondary
 Grml-http: grml/
-Grml-ftp: grml/
 Grml-rsync: grml/
 Maintainer: Jeffrey Kriegsman <mirror@leaseweb.com>
 Country: DE Germany
@@ -12,7 +11,6 @@ IPv6: yes
 Site: mirror.nl.leaseweb.net
 Type: Secondary
 Grml-http: grml/
-Grml-ftp: grml/
 Grml-rsync: grml/
 Maintainer: Jeffrey Kriegsman <mirror@leaseweb.com>
 Country: NL Netherlands
@@ -23,7 +21,6 @@ IPv6: yes
 Site: mirror.us.leaseweb.net
 Type: Secondary
 Grml-http: grml/
-Grml-ftp: grml/
 Grml-rsync: grml/
 Maintainer: Jeffrey Kriegsman <mirror@leaseweb.com>
 Country: US United States of America
@@ -43,7 +40,6 @@ IPv6: yes
 Site: mirror.netcologne.de
 Type: SecondaryPlus
 Grml-http: grml/
-Grml-ftp: grml/
 Grml-rsync: grml/
 Maintainer: Alexander Wirt <formorer@grml.org>
 Country: DE Germany
@@ -73,7 +69,6 @@ IPv6: Yes
 Site: ftp.halifax.rwth-aachen.de
 Type: Secondary
 Grml-http: grml/
-Grml-ftp: grml/
 Grml-rsync: grml/
 Maintainer: Carsten Otto <ftp@halifax.rwth-aachen.de>
 Country: DE Germany
@@ -126,7 +121,6 @@ Site: grml.ip-connect.vn.ua
 Type: Secondary
 Grml-http: /
 Grml-https: /
-Grml-ftp: mirror/grml/
 Grml-rsync: grml/
 Maintainer: IP-Connect mirror admin <mirrors@ip-connect.vn.ua>
 Country: UA Ukraine
@@ -169,7 +163,6 @@ IPv6: yes
 Site: mirror.akardam.net
 Type: Secondary
 Grml-http: grml/
-Grml-ftp: grml/
 Maintainer: Mirror Admin <mirror-poc@akardam.net>
 Country: US United States of America
 Location: San Francisco, California
