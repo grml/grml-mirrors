@@ -1,3 +1,14 @@
+Site: mirror.de.redswitches.com
+Type: Secondary
+Grml-http: grml/
+Grml-rsync: grml/
+Grml-ftp: grml/
+Maintainer: Tinu Sharma <tinu@redswitches.com>
+Country: NL Netherlands
+Location: Haarlem, IronMountain
+Sponsor: RedSwitches
+IPv6: yes
+
 Site: mirror.de.leaseweb.net
 Type: Secondary
 Grml-http: grml/
