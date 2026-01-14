@@ -1,6 +1,7 @@
 Site: mirror.de.redswitches.com
 Type: Secondary
 Grml-http: grml/
+Grml-https: grml/
 Grml-rsync: grml/
 Grml-ftp: grml/
 Maintainer: Tinu Sharma <tinu@redswitches.com>
@@ -12,6 +13,7 @@ IPv6: yes
 Site: mirror.de.leaseweb.net
 Type: Secondary
 Grml-http: grml/
+Grml-https: grml/
 Maintainer: Jeffrey Kriegsman <mirror@leaseweb.com>
 Country: DE Germany
 Location: Frankfurt
@@ -21,6 +23,7 @@ IPv6: yes
 Site: mirror.nl.leaseweb.net
 Type: Secondary
 Grml-http: grml/
+Grml-https: grml/
 Grml-rsync: grml/
 Maintainer: Jeffrey Kriegsman <mirror@leaseweb.com>
 Country: NL Netherlands
@@ -31,6 +34,7 @@ IPv6: yes
 Site: mirror.us.leaseweb.net
 Type: Secondary
 Grml-http: grml/
+Grml-https: grml/
 Maintainer: Jeffrey Kriegsman <mirror@leaseweb.com>
 Country: US United States of America
 Location: Manassas, Virginia, PowerLoft DC
@@ -40,6 +44,7 @@ IPv6: yes
 Site: mirror.lagis.at
 Type: Secondary
 Grml-http: pub/grml/
+Grml-https: pub/grml/
 Maintainer: lagis Mirror Admins <mirror@lagis.at>
 Country: AT Austria
 Location: Linz
@@ -49,6 +54,7 @@ IPv6: yes
 Site: mirror.netcologne.de
 Type: SecondaryPlus
 Grml-http: grml/
+Grml-https: grml/
 Grml-rsync: grml/
 Maintainer: Alexander Wirt <formorer@grml.org>
 Country: DE Germany
@@ -59,6 +65,7 @@ IPv6: yes
 Site: ftp.fau.de
 Type: Secondary
 Grml-http: grml/
+Grml-https: grml/
 Grml-rsync: grml/
 Maintainer: RRZE FTP-Admins <rrze-ftp-admins@fau.de>
 Country: DE Germany
@@ -69,6 +76,7 @@ IPv6: Yes
 Site: mirrors.rit.edu
 Type: Secondary
 Grml-http: grml/
+Grml-https: grml/
 Maintainer: TBD
 Country: US United States of America
 Location: New York
@@ -78,6 +86,7 @@ IPv6: Yes
 Site: ftp.halifax.rwth-aachen.de
 Type: Secondary
 Grml-http: grml/
+Grml-https: grml/
 Grml-rsync: grml/
 Maintainer: Carsten Otto <ftp@halifax.rwth-aachen.de>
 Country: DE Germany
@@ -88,6 +97,7 @@ IPv6: yes
 Site: mirror.23m.com
 Type: Secondary
 Grml-http: grml/
+Grml-https: grml/
 Grml-rsync: grml/
 Maintainer: Mirror Admin <mirror@23m.com>
 Country: DE Germany
@@ -98,6 +108,7 @@ IPv6: yes
 Site: at.mirror.anexia.com
 Type: Secondary
 Grml-http: grml/
+Grml-https: grml/
 Grml-rsync: grml/
 Maintainer: Alexander Griesser <ag@anexia.at>
 Country: AT Austria
@@ -172,6 +183,7 @@ IPv6: yes
 Site: mirror.akardam.net
 Type: Secondary
 Grml-http: grml/
+Grml-https: grml/
 Maintainer: Mirror Admin <mirror-poc@akardam.net>
 Country: US United States of America
 Location: San Francisco, California
@@ -190,6 +202,7 @@ IPv6: no
 Site: mirror.init7.net
 Type: Secondary
 Grml-http: grml/
+Grml-https: grml/
 Grml-rsync: grml/
 Maintainer: Init7 <mirror@init7.net>
 Country: CH Switzerland
@@ -200,6 +213,7 @@ IPv6: yes
 Site: grml.c3sl.ufpr.br
 Type: Secondary
 Grml-http: /
+Grml-https: /
 Grml-rsync: grml/
 Maintainer: Mirror Admin <root@c3sl.ufpr.br>
 Country: BR Brazil
