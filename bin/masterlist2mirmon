@@ -32,7 +32,7 @@ sub parse_masterlist {
 my $masterlist = shift;
 my @mirrors = parse_masterlist($masterlist);
 foreach my $mirror (@mirrors) {
-	$mirror->{'url-http'} = sprintf("https://%s/%s", $mirror->{'site'}, $mirror->{'grml-http'});
+	$mirror->{'url-https'} = sprintf("https://%s/%s", $mirror->{'site'}, $mirror->{'grml-https'});
 	if ($mirror->{'grml-ftp'}) {
 		$mirror->{'url-ftp'} = sprintf("ftp://%s/%s", $mirror->{'site'}, $mirror->{'grml-ftp'});
 	}
@@ -43,7 +43,7 @@ foreach my $mirror (@mirrors) {
 
 foreach my $mirror (@mirrors) {
 	my ($c, $r) = split (/ +/, $mirror->{'country'});
-	print $c." ".$mirror->{'url-http'}."\n";
+	print $c." ".$mirror->{'url-https'}."\n";
 	if ($mirror->{'url-ftp'}) {
 		print $c." ".$mirror->{'url-ftp'}."\n";
 	}

@@ -39,7 +39,7 @@ sub parse_masterlist {
 my $masterlist = shift;
 my @mirrors = parse_masterlist($masterlist);
 foreach my $mirror (@mirrors) {
-	$mirror->{'url-http'} = sprintf("https://%s/%s", $mirror->{'site'}, $mirror->{'grml-http'});
+	$mirror->{'url-https'} = sprintf("https://%s/%s", $mirror->{'site'}, $mirror->{'grml-https'});
 	if ($mirror->{'grml-ftp'}) {
 		$mirror->{'url-ftp'} = sprintf("ftp://%s/%s", $mirror->{'site'}, $mirror->{'grml-ftp'});
 	}
@@ -48,10 +48,10 @@ foreach my $mirror (@mirrors) {
 	}
 }
 
-my @http_urls;
+my @https_urls;
 foreach my $mirror (@mirrors) {
 	next if $ipv6_only and $mirror->{'ipv6'} eq 'no';
-	push @http_urls, $mirror->{'url-http'};
+	push @https_urls, $mirror->{'url-https'};
 }
 
 
@@ -69,7 +69,7 @@ my $all_up_mirrors = [];
 
 # Find all "up" mirrors from Mirmon data
 foreach my $url ( keys %{$state} ) {
-	next unless $url ~~ @http_urls;
+	next unless $url ~~ @https_urls;
 	$mirror = $state -> { $url } ; # a Mirmon::Mirror object
 	my ($time, $history) = split('-', $mirror->{state_history});
 	my $last_state = substr($history,-1,1);
