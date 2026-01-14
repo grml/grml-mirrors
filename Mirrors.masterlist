@@ -227,3 +227,12 @@ Country: RO Romania
 Location: Iași
 Sponsor: DataPark https://www.datapark.ro/
 IPv6: no
+
+Site: jp.mirror.oloke.xyz
+Type: Secondary
+Grml-https: grml/
+Grml-rsync: grml/
+Maintainer: oloke <mirror@oloke.xyz>
+Country: JP Japan
+Location: Tokyo
+IPv6: no
