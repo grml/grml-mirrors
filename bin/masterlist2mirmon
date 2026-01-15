@@ -33,9 +33,6 @@ my $masterlist = shift;
 my @mirrors = parse_masterlist($masterlist);
 foreach my $mirror (@mirrors) {
 	$mirror->{'url-https'} = sprintf("https://%s/%s", $mirror->{'site'}, $mirror->{'grml-https'});
-	if ($mirror->{'grml-ftp'}) {
-		$mirror->{'url-ftp'} = sprintf("ftp://%s/%s", $mirror->{'site'}, $mirror->{'grml-ftp'});
-	}
 	if ($mirror->{'grml-rsync'}) {
 		$mirror->{'url-rsync'} = sprintf("rsync://%s/%s\n", $mirror->{'site'}, $mirror->{'grml-rsync'});
 	}
@@ -44,9 +41,6 @@ foreach my $mirror (@mirrors) {
 foreach my $mirror (@mirrors) {
 	my ($c, $r) = split (/ +/, $mirror->{'country'});
 	print $c." ".$mirror->{'url-https'}."\n";
-	if ($mirror->{'url-ftp'}) {
-		print $c." ".$mirror->{'url-ftp'}."\n";
-	}
 	if ($mirror->{'url-rsync'}) {
 		print $c." ".$mirror->{'url-rsync'}."\n";
 	}
