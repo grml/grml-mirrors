@@ -3,7 +3,6 @@ Type: Secondary
 Grml-http: grml/
 Grml-https: grml/
 Grml-rsync: grml/
-Grml-ftp: grml/
 Maintainer: Tinu Sharma <tinu@redswitches.com>
 Country: NL Netherlands
 Location: Haarlem, IronMountain
