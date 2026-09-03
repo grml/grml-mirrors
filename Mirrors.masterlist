@@ -109,10 +109,10 @@ Type: Secondary
 Grml-http: grml/
 Grml-https: grml/
 Grml-rsync: grml/
-Maintainer: Alexander Griesser <ag@anexia.at>
+Maintainer: Mirror Team <mirror-team@anexia.at>
 Country: AT Austria
 Location: Vienna
-Sponsor: ANEXIA http://www.anexia.at/
+Sponsor: ANEXIA https://anexia.com/
 IPv6: yes
 
 Site: grml.mirror.wearetriple.com
