@@ -104,17 +104,6 @@ Location: Frankfurt
 Sponsor: 23media GmbH - https://www.23m.com/
 IPv6: yes
 
-Site: at.mirror.anexia.com
-Type: Secondary
-Grml-http: grml/
-Grml-https: grml/
-Grml-rsync: grml/
-Maintainer: Alexander Griesser <ag@anexia.at>
-Country: AT Austria
-Location: Vienna
-Sponsor: ANEXIA http://www.anexia.at/
-IPv6: yes
-
 Site: grml.mirror.wearetriple.com
 Type: Secondary
 Grml-http: /
